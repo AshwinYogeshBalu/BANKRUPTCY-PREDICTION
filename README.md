@@ -16,13 +16,13 @@
 ##### Logistic Regression - with SMOTE & without SMOTE, Soft Margin SVM
 
 ## Performance Evaluation
-### Logistic Regression - without SMOTE
+### 1) Logistic Regression - without SMOTE
 ##### The accuracy of the model is so good. We got a 95% accuracy. But the usecase of this project is more concerned about identifying the success class 1 correctly. In that case, recall is what matters to us. Our model has performed so bad in terms of identifying the minority success class. We achieved a recall of only .007.
 
-### Logistic Regression - with SMOTE
+### 2) Logistic Regression - with SMOTE
 ##### After oversampling the data, we have given enough data points of the minority class to the model. The recall should improve after training the model on the over-sampled data. This is our assumption. Our assumption is true. The recall has significantly improved to 0.65. This has occurred by having trade-off with accuracy. But the f1 score is still low.
 
-### Soft Margin SVM
+### 3) Soft Margin SVM
 ##### The f1 score of SVM model has increased to 0.27 compared to the f1 score of the previous model. But the model has still failed to perform well. This is because, the value of recall has gone down compared to the previous model.
 
 ## Conclusion
